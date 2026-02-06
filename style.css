@@ -370,7 +370,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -390,7 +390,17 @@ section .title::after{
 .swiper-button-next::after{
   content: "";
 }
-
+.swiper-button-prev,
+.swiper-button-next{
+  width: initial;
+  height: initial;
+  background-color: crimson;
+  padding: 0.25rem;
+  font-size: 2rem;
+  top: 16.5rem;
+  border-radius: 5px;
+  color: white;
+}
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
