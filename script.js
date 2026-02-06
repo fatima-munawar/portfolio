@@ -49,28 +49,24 @@ document.addEventListener("DOMContentLoaded", function () {
         backSpeed: 60,
         loop: true
     })
+    // swiper slider
+    let swiperFeatured = new Swiper('.max-width', {
+    loop: true,
+    spaceBetween: 16,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
 
-    // owl carousel
-    $(document).ready(function () {
-        $(".carousel").owlCarousel({
-            // margin: 20,
-            // loop: true,
-            // autoplayTimeOut: 2000,
-            // autoplayHoverPause: true,
-            // responsive: {
-            //     0:{
-            //         items: 1,
-            //         nav: false
-            //     },
-            //     600:{
-            //         items: 2,
-            //         nav: false
-            //     },
-            //     1000:{
-            //         items: 3,
-            //         nav: false
-            //     }
-            // }
-        });
-    });
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+    breakpoints: {
+        1150: {
+            slidesPerView: 3,
+            centeredSlides: false,
+        }
+    }
+})
 })

@@ -385,27 +385,12 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: "";
 }
-.owl-dot{
-    height: 13px;
-    margin: 0 5px;
-    width: 13px;
-    border-radius: 50%;
-    outline: none!important;
-    border: 2px solid crimson!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background-color: crimson!important;
-}
+
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
