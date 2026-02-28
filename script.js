@@ -38,13 +38,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Blogger", "Designer", "Freelancer"],
+        strings: [ "Web Designer", "Frontend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     })
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Web Designer", "Frontend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // swiper slider
     let swiperFeatured = new Swiper('.max-width', {
     loop: true,
-    spaceBetween: 16,
+    spaceBetween: 20,
     grabCursor: true,
     slidesPerView: 'auto',
     centeredSlides: 'auto',
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     breakpoints: {
         1150: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             centeredSlides: false,
         }
     }
