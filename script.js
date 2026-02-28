@@ -50,12 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true
     })
     // swiper slider
-    let swiperFeatured = new Swiper('.max-width', {
+    let swiperFeatured = new Swiper('.mySwiper', {
     loop: true,
     spaceBetween: 20,
     grabCursor: true,
-    slidesPerView: 'auto',
-    centeredSlides: 'auto',
+    slidesPerView: '1',
+    centeredSlides: 'false',
 
     navigation: {
     nextEl: '.swiper-button-next',
