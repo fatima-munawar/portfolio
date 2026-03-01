@@ -50,9 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true
     })
     // swiper slider
-    let swiperFeatured = new Swiper('.max-width', {
+    let swiperFeatured = new Swiper('.swiper', {
     loop: true,
-    spaceBetween: 20,
+    spaceBetween: 16,
     grabCursor: true,
     slidesPerView: 'auto',
     centeredSlides: 'auto',
