@@ -376,10 +376,11 @@ section .title::after{
 .projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.projects .carousel .card .text{
+.projects .carousel .card .text a{
     font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: #fff;
 }
 .projects .carousel .card img{
     height: 150px;
