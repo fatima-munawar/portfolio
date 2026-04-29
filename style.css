@@ -189,11 +189,11 @@ section .title::after{
 .about .about-content .left{
     width: 45%;
 }
-.about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
+.about .about-content .left i{
+    font-size: 18.5rem;
+    border: 2px solid black;
     border-radius: 6px;
+    margin-left: 2rem;
 }
 .about .title::after{
     content: "who i am";
